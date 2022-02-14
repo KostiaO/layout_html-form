@@ -1,1 +1,9 @@
 /* styles go here */
+.legend {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.fieldset {
+  margin: 20px 0;
+}

@@ -11,7 +11,110 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+    <form actvvion="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+        <label>
+          Surname:
+          <input type="text" name="surname">
+        </label></br>
+        <label class="legend">
+          Name:
+          <input type="text" name="name">
+        </label></br>
+        <label class="legend">
+          How old are You?
+          <input
+          type="number"
+          name="age"
+          min="1"
+          max="100"
+          value="12"
+          >
+        </label></br>
+        <label class="legend">
+          Full date of birth:
+          <input type="date" name="date-of-birth">
+        </label></br>
+        <label class="legend">
+          I accept the term of the agreement
+          <input type="checkbox" name="agree">
+        </label>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend>Registration</legend>
+        <label>
+          E-mail:
+          <input
+          type="email"
+          placeholder="email@example.com"
+          name="email"
+          required
+          >
+        </label></br>
+        <label class="legend">
+          Password:
+          <input
+          type="password"
+          name="password"
+          minlength="5"
+          maxlength="32"
+          >
+        </label>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend>An interesting fact about you!</legend>
+        Do you love cats?
+        <label>
+          <input name="yorn" type="radio"> Yes
+        </label>
+        <label>
+          <input name="yorn" type="radio"> No
+        </label></br>
+        <label class="legend">
+          What is your favorite color?
+          <input type="color" name="color">
+        </label></br>
+        <label class="legend">
+          What time do you go to bed?
+          <input type="time" name="time" step="2">
+        </label></br>
+        <label class="legend">
+          What are your favorite brand of cars?
+          <select name="brand" required multiple
+          >
+            <option value="1">BMW</option>
+            <option value="2">Audi</option>
+            <option value="3">Lada</option>
+          </select>
+        </label></br>
+        <label class="legend">
+          How do you rate our work?
+          <input
+          type="range"
+          name="volume"
+          value="0"
+          min="0"
+          max="10"
+          >
+        </label>
+      </fieldset>
+      <fieldset class="fieldset">
+        <legend>Additional info:</legend>
+        <label>
+          Comments:
+          <textarea name="text"></textarea>
+        </label></br>
+        <label class="legend">
+          Would you recommend us?
+          <select name="yorn">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </label>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
