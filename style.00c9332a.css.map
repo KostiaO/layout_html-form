@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AACA,QACE,oBAAqB,CACrB,eAAgB,CAChB,aAAc,CACd,cACF,CAEA,UACE,eACF","file":"style.00c9332a.css","sourceRoot":"..\\src","sourcesContent":["/* styles go here */\n.legend {\n  display: inline-block;\n  margin-top: 10px;\n  margin-left: 0;\n  margin-right: 0;\n}\n\n.fieldset {\n  margin: 20px 2px;\n}\n"]}
